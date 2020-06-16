@@ -198,11 +198,6 @@ export default class PhoneInput extends Component {
           onPress={this.onPressFlag}
           disabled={disabled}
         >
-          {/* <Image
-            source={Flags.get(iso2)}
-            style={[styles.flag, this.props.flagStyle]}
-            onPress={this.onPressFlag}
-          /> */}
           <View style={[styles.flag, this.props.flagStyle]}><Text>{this.getCountryCode()}</Text></View>
         </TouchableWithoutFeedback>
 
