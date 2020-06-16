@@ -86,7 +86,7 @@ export default class CountryPicker extends Component {
       <PickerItem
         key={country.iso2}
         value={country.iso2}
-        label={country.name}
+        label={country ? country.dialCode : ''}
       />
     );
   }
