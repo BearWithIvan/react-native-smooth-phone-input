@@ -34,7 +34,7 @@ export default StyleSheet.create({
   },
   flag: {
     height: 20,
-    width: 30,
+    minWidth: 30,
     borderRadius: 2,
     borderWidth: 0.5,
     borderColor: '#cecece',
