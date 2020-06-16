@@ -40,6 +40,9 @@ export default StyleSheet.create({
     borderColor: '#cecece',
     backgroundColor: '#cecece',
   },
+  flag_text:{
+    color: '#ffffff'
+  },
   text: {
     height: 20,
     padding: 0,

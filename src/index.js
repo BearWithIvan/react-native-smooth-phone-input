@@ -199,7 +199,7 @@ export default class PhoneInput extends Component {
           disabled={disabled}
         >
           <View style={[styles.flag, this.props.flagStyle]}>
-            <Text>{this.getCountryCode() ? `+${this.getCountryCode()}` : ''}</Text>
+            <Text style={styles.flag_text}>{this.getCountryCode() ? `+${this.getCountryCode()}` : ''}</Text>
           </View>
         </TouchableWithoutFeedback>
 
