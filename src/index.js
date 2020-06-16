@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Image, TextInput, TouchableWithoutFeedback, View,Text } from 'react-native';
+import { Image, TextInput, TouchableWithoutFeedback, View, Text, } from 'react-native';
 import PropTypes from 'prop-types';
 import Country from './country';
 import Flags from './resources/flags';
