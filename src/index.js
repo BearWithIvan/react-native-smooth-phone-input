@@ -198,7 +198,9 @@ export default class PhoneInput extends Component {
           onPress={this.onPressFlag}
           disabled={disabled}
         >
-          <View style={[styles.flag, this.props.flagStyle]}><Text>{this.getCountryCode()}</Text></View>
+          <View style={[styles.flag, this.props.flagStyle]}>
+            <Text>{this.getCountryCode() ? this.getCountryCode() : ''}</Text>
+          </View>
         </TouchableWithoutFeedback>
 
         <View style={{ flex: 1, marginLeft: this.props.offset || 10 }}>
