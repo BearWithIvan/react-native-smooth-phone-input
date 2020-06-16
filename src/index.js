@@ -199,7 +199,7 @@ export default class PhoneInput extends Component {
           disabled={disabled}
         >
           <View style={[styles.flag, this.props.flagStyle]}>
-            <Text style={styles.flag_text}>{this.getCountryCode() ? `+${this.getCountryCode()}` : ''}</Text>
+            <Text style={[styles.flag_text, this.props.flagTextStyle]}>{this.getCountryCode() ? `+${this.getCountryCode()}` : ''}</Text>
           </View>
         </TouchableWithoutFeedback>
 
@@ -248,6 +248,7 @@ PhoneInput.propTypes = {
   value: PropTypes.string,
   style: PropTypes.object,
   flagStyle: PropTypes.object,
+  flagTextStyle: PropTypes.object,
   textStyle: PropTypes.object,
   offset: PropTypes.number,
   textProps: PropTypes.object,
